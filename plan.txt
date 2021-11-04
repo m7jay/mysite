@@ -1,0 +1,10 @@
+URLs and Views
+
+URLs                    Action
+
+/                       Load start page and some welcome text
+
+/posts                  list all blog posts
+
+/posts/first-post       Load inidividual blog post to display the entire post
+/posts/<slug>           dynamic blog value to load diff blogs
