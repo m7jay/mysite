@@ -8,3 +8,15 @@ URLs                    Action
 
 /posts/first-post       Load inidividual blog post to display the entire post
 /posts/<slug>           dynamic blog value to load diff blogs
+
+
+data models
+
+Author : First Name, Last Name, email address
+
+Post : Title, Excerpt, Image Name, date, slug, content
+
+Tag : caption
+
+Author <- one to many -> Post
+Post <- many-to-many -> Tag
